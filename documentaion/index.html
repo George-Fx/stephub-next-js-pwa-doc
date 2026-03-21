@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h3 class="header-text">
+        StepHub - Next JS Shoes Store Template by George_FX v1.0
+      </h3>
+      <h1 class="title">StepHub - Next JS Shoes Store App</h1>
+      <!-- Details -->
+      <div class="details">
+        <div class="details__left">
+          <span class="details__left-text">Created: 20/03/2026</span>
+          <span class="details__left-text">By: George_FX</span>
+          <span class="details__left-text">
+            Email:
+            <a href="mailto:kul.giorgi@gmail.com" class="details__left-link">
+              kul.giorgi@gmail.com
+            </a>
+          </span>
+        </div>
+        <div class="details__right">
+          <p class="details__right-text">
+            Thank you for purchasing my theme. If you have any questions that
+            are beyond the scope of this help file, please feel free to email
+            via my user page contact form
+            <a href="http://themeforest.net/user/George_FX">here</a>
+            . Thanks so much!
+          </p>
+        </div>
+      </div>
+      <!-- Description -->
+      <p class="description">
+        Before setting up the project, you should have a basic understanding of
+        the following: Html, Css, Javascript, Next.js, Node.js, npm. For more
+        information about the above topics, you can visit the following links:
+        <a href="https://www.w3schools.com/html/">HTML</a>
+        <a href="https://www.w3schools.com/css/">CSS</a>
+        <a href="https://www.w3schools.com/js/">Javascript</a>
+        <a href="https://reactjs.org/">React</a>
+        <a href="https://nextjs.org/">Next.js</a>
+        <a href="https://nodejs.org/en/">Node.js</a>
+        <a href="https://www.npmjs.com/">npm</a>
+      </p>
+      <!-- Steps -->
+      <h2 class="steps__title">
+        You need to follow the following steps to install the theme:
+      </h2>
+      <!-- List -->
+      <ol class="steps__list">
+        <!-- 1. Important Requirements -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">1.</span>
+          <a href="#requirements" class="steps__list-item-text">
+            Important Requirements
+          </a>
+        </li>
+        <!-- 2. Folder structure -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">2.</span>
+          <a href="#structure" class="steps__list-item-text">
+            Folder structure
+          </a>
+        </li>
+        <!-- 3. Install environment -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">3.</span>
+          <a href="#environment" class="steps__list-item-text">
+            Install environment
+          </a>
+        </li>
+        <!-- 4. Install dependencies -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">4.</span>
+          <a href="#dependencies" class="steps__list-item-text">
+            Install dependencies
+          </a>
+        </li>
+        <!-- 5. Change Assets -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">5.</span>
+          <a href="#change-assets" class="steps__list-item-text">
+            Change Assets
+          </a>
+        </li>
+        <!-- 6. Customization -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">6.</span>
+          <a href="#customization" class="steps__list-item-text">
+            Customization
+          </a>
+        </li>
+        <!-- 7. Run the project -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">7.</span>
+          <a href="#run-project" class="steps__list-item-text">
+            Run the project
+          </a>
+        </li>
+        <!-- 8. Build the project -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">8.</span>
+          <a href="#build-project" class="steps__list-item-text">
+            Build the project
+          </a>
+        </li>
+        <!-- 9. Deploy the project -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">9.</span>
+          <a href="#deploy-project" class="steps__list-item-text">
+            Deploy the project
+          </a>
+        </li>
+        <!-- 10. API Usage -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">10.</span>
+          <a href="#api-usage" class="steps__list-item-text">API Usage</a>
+        </li>
+        <!-- 11. API Integration -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">11.</span>
+          <a href="#api-integration" class="steps__list-item-text">
+            API Integration
+          </a>
+        </li>
+        <!-- 12. Support and Dependencies -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">12.</span>
+          <a href="#support" class="steps__list-item-text">
+            Support and Dependencies
+          </a>
+        </li>
+        <!-- 13. Changelog -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">13.</span>
+          <a href="#changelog" class="steps__list-item-text">Changelog</a>
+        </li>
+      </ol>
+
+      <!-- 1. Important Requirements -->
+      <section class="steps__section" id="requirements">
+        <h3 class="steps__sub-title">
+          <strong>1. Important Requirements</strong>
+        </h3>
+        <p class="steps__section-description">
+          The project is built with the following versions:
+          <br />
+          <br />
+          <strong>Node.js:</strong>
+          Version
+          <span class="versions__list-item-version">24 or higher</span>
+          is required to run the project.
+          <a href="https://nodejs.org/en/" target="_blank">
+            [Node.js Official Site]
+          </a>
+          <br />
+          <strong>Next.js:</strong>
+          The project is built with
+          <span class="versions__list-item-version">Next.js 16.</span>
+          <a href="https://nextjs.org/" target="_blank">
+            [Next.js Official Site]
+          </a>
+          <br />
+          <strong>npm:</strong>
+          Version
+          <span class="versions__list-item-version">11</span>
+          was used for dependency management.
+          <a href="https://www.npmjs.com/" target="_blank">
+            [npm Official Site]
+          </a>
+        </p>
+        <p class="steps__section-description">
+          Please ensure your development environment matches these versions for
+          optimal compatibility and performance.
+        </p>
+        <p class="steps__section-description">
+          To check your installed versions, run:
+          <code>node -v</code>
+          ,
+          <code>npm -v</code>
+          ,
+          <code>npx next -v</code>
+          in your terminal.
+        </p>
+      </section>
+
+      <!-- 2. Folder structure -->
+      <section class="steps__section" id="structure">
+        <h3 class="steps__sub-title">
+          <strong>2. Folder structure</strong>
+        </h3>
+        <ul class="structure__list">
+          <li class="structure__list-item">
+            <strong>stephub &gt; public:</strong>
+            Contains the PWA manifest file with app configuration settings, as
+            well as icons in various sizes required for app installation on
+            different devices.
+          </li>
+          <li class="structure__list-item">
+            <strong>stephub &gt; src &gt; api:</strong>
+            Contains .json files that will be fetched via API requests in the
+            future.
+          </li>
+          <li class="structure__list-item">
+            <strong>stephub &gt; src &gt; app:</strong>
+            Contains the main application files, including their associated
+            styles.
+          </li>
+          <li class="structure__list-item">
+            <strong>stephub &gt; src &gt; assets:</strong>
+            Contains a single asset file used as a decorative element within the
+            application.
+          </li>
+          <li class="structure__list-item">
+            <strong>stephub &gt; src &gt; components:</strong>
+            Contains reusable UI components.
+          </li>
+          <li class="structure__list-item">
+            <strong>stephub &gt; src &gt; constants:</strong>
+            Contains reusable constants used throughout the application.
+          </li>
+          <li class="structure__list-item">
+            <strong>stephub &gt; src &gt; css:</strong>
+            Contains CSS files for styling the application.
+          </li>
+          <li class="structure__list-item">
+            <strong>stephub &gt; src &gt; items:</strong>
+            Contains item components for different items.
+          </li>
+          <li class="structure__list-item">
+            <strong>stephub &gt; src &gt; store:</strong>
+            Contains Redux store files for state management.
+          </li>
+          <li class="structure__list-item">
+            <strong>stephub &gt; src &gt; svg:</strong>
+            Contains SVG icons implemented as React components for easy
+            integration and customization.
+          </li>
+          <li class="structure__list-item">
+            <strong>stephub &gt; src &gt; types:</strong>
+            Contains TypeScript types.
+          </li>
+          <li class="structure__list-item">
+            <strong>stephub &gt; src &gt; utils:</strong>
+            Contains utility functions and helpers.
+          </li>
+        </ul>
+        <img src="assets/structure.png" class="steps__section-image" />
+      </section>
+
+      <!-- 3. Install environment -->
+      <section class="steps__section" id="environment">
+        <h3 class="steps__sub-title">
+          <strong>3. Install environment</strong>
+        </h3>
+        <p class="steps__section-description">
+          Your computer should have Node.js and npm installed to manage the
+          dependencies. You can download Node.js (which includes npm) from the
+          following link:
+          <a href="https://nodejs.org/en/">Node.js</a>
+        </p>
+        <img
+          src="assets/install-environment.png"
+          class="steps__section-image"
+        />
+      </section>
+
+      <!-- 4. Install dependencies -->
+      <section class="steps__section" id="dependencies">
+        <h3 class="steps__sub-title">
+          <strong>4. Install dependencies</strong>
+        </h3>
+        <p class="steps__section-description">
+          Open the project in a code editor like VS Code (free editor:
+          <a href="https://code.visualstudio.com/" target="_blank">
+            https://code.visualstudio.com/
+          </a>
+          ), then install the dependencies by running the following command in
+          the project directory:
+          <code>npm install</code>
+        </p>
+        <img src="assets/npm-install.png" class="steps__section-image" />
+      </section>
+
+      <!-- 5. Change Assets -->
+      <section class="steps__section" id="change-assets">
+        <h3 class="steps__sub-title">
+          <strong>5. Change Assets</strong>
+        </h3>
+        <p class="steps__section-description">
+          The project contains only one local asset file located at
+          <code>src/assets/01.png</code>
+          . All other images are loaded via external URLs and are defined within
+          the Next.js
+          <code>Image</code>
+          component.
+        </p>
+        <p class="steps__section-description">
+          To change any image, simply replace the URL in the corresponding
+          <code>Image</code>
+          component with your own image link. This approach allows for easy
+          customization without modifying local files.
+        </p>
+        <img src="assets/change-assets.png" class="steps__section-image" />
+        <img src="assets/urls.png" class="steps__section-image" />
+      </section>
+
+      <!-- 6. Customization -->
+      <section class="steps__section" id="customization">
+        <h3 class="steps__sub-title">
+          <strong>6. Customization</strong>
+        </h3>
+        <p class="steps__section-description">
+          The project uses CSS for styling. Global styles and variables are
+          located in the
+          <code>src/css</code>
+          folder.
+        </p>
+        <img src="assets/css-folder.png" class="steps__section-image" />
+        <br />
+        <br />
+        <p class="steps__section-description">
+          To customize colors, fonts, and other design tokens, edit the CSS
+          variables in the corresponding files. Changes will be automatically
+          reflected throughout the application.
+        </p>
+        <p class="steps__section-description">
+          Additionally, each screen in the
+          <code>src/app</code>
+          folder has its own dedicated CSS file, allowing you to customize the
+          appearance of individual screens independently.
+        </p>
+      </section>
+
+      <!-- 7. Run the project -->
+      <section class="steps__section" id="run-project">
+        <h3 class="steps__sub-title">
+          <strong>7. Run the project</strong>
+        </h3>
+        <p class="steps__section-description">
+          To run the project, use the following command:
+          <code>npm run dev</code>
+        </p>
+        <p class="steps__section-description">
+          This will start the development server, and you can view the app in
+          your browser at
+          <code>http://localhost:3000</code>
+          . The development server supports hot reloading, so any changes you
+          make to the code will automatically refresh the page to reflect those
+          changes.
+        </p>
+        <img src="assets/npm-run-dev.png" class="steps__section-image" />
+      </section>
+
+      <!-- 8. Build the project -->
+      <section class="steps__section" id="build-project">
+        <h3 class="steps__sub-title">
+          <strong>8. Build the project</strong>
+        </h3>
+        <p class="steps__section-description">
+          To build the project, use the following command:
+          <code>npm run build</code>
+          <br />
+          You can find more information on Next.js production builds in the
+          Next.js documentation:
+          <a
+            href="https://nextjs.org/docs/pages/building-your-application/deploying#production-builds"
+          >
+            Next.js Production Builds
+          </a>
+        </p>
+        <img src="assets/npm-run-build.png" class="steps__section-image" />
+      </section>
+
+      <!-- 9. Deploy the project -->
+      <section class="steps__section" id="deploy-project">
+        <h3 class="steps__sub-title">
+          <strong>9. Deploy the project</strong>
+        </h3>
+        <p class="steps__section-description">
+          After running the build command, all build files will be located in
+          the
+          <code>.next</code>
+          folder. For deployment, move the contents of the
+          <code>.next</code>
+          folder to your server.
+        </p>
+        <p class="steps__section-description">
+          You can deploy
+          <a
+            href="https://nextjs.org/docs/pages/building-your-application/deploying#managed-nextjs-with-vercel"
+          >
+            managed Next.js with Vercel
+          </a>
+          , or self-host on a Node.js server, Docker image, or even static HTML
+          files.
+          <br />
+          You can find more information on Next.js deployment in the Next.js
+          documentation:
+
+          <a href="https://nextjs.org/docs/deployment">Next.js Deployment</a>
+        </p>
+        <img
+          src="assets/npm-run-build-result.png"
+          class="steps__section-image"
+        />
+      </section>
+
+      <!-- 10. API Usage -->
+      <section class="steps__section" id="api-usage">
+        <h3 class="steps__sub-title">
+          <strong>10. API Usage</strong>
+        </h3>
+        <p class="steps__section-description">
+          By default, the application uses 7 main JSON files located in
+          <code>src/api</code>
+          :
+        </p>
+        <ul class="api__list">
+          <li class="api__list-item">
+            <strong>carousel.json</strong>
+            – contains data for the carousel items displayed on the homepage.
+          </li>
+          <li class="api__list-item">
+            <strong>categories.json</strong>
+            – contains the list of product categories.
+          </li>
+          <li class="api__list-item">
+            <strong>onboarding.json</strong>
+            – contains data for the onboarding welcome screens, including
+            images, titles, and descriptions displayed to new users.
+          </li>
+          <li class="api__list-item">
+            <strong>orders.json</strong>
+            – contains data for the orders, including order details and status.
+          </li>
+          <li class="api__list-item">
+            <strong>products.json</strong>
+            – contains the list of products.
+          </li>
+          <li class="api__list-item">
+            <strong>promocodes.json</strong>
+            – contains available promo codes for discounts and special offers.
+          </li>
+          <li class="api__list-item">
+            <strong>reviews.json</strong>
+            – contains customer reviews and ratings for products.
+          </li>
+        </ul>
+        <p class="steps__section-description">
+          These are just static files and there are no real API requests to a
+          server. The application reads data directly from these JSON files. You
+          can modify or extend them as needed for your project. In a production
+          environment, you may replace them with real API endpoints.
+        </p>
+        <img src="assets/api.png" class="steps__section-image" />
+      </section>
+
+      <!-- 11. API Integration -->
+      <section class="steps__section" id="api-integration">
+        <h3 class="steps__sub-title">
+          <strong>11. API Integration</strong>
+        </h3>
+        <p class="steps__section-description">
+          To use real data instead of mock JSON files, create reusable API
+          helpers in React and fetch data with hooks. This keeps components
+          clean and allows easy switching to real REST endpoints.
+        </p>
+        <p class="steps__section-description">
+          <strong>Steps:</strong>
+        </p>
+        <p class="steps__section-description">
+          1. Create an API module, e.g.
+          <code>src/api/apiClient.tsx</code>
+          or
+          <code>src/api/api.tsx</code>
+          .
+          <br />
+          2. Write fetch functions for each dataset:
+          <code>getCarousel()</code>
+          ,
+          <code>getCategories()</code>
+          ,
+          <code>getProducts()</code>
+          ,
+          <code>getOrders()</code>
+          ,
+          <code>getReviews()</code>
+          ,
+          <code>getPromocodes()</code>
+          .
+          <br />
+          3. In components, load data with
+          <code>useEffect</code>
+          +
+          <code>useState</code>
+          or Redux/RTK Query, and replace mock JSON usage.
+        </p>
+        <p class="steps__section-description">
+          Example API helper (fetch from endpoint):
+        </p>
+        <img src="assets/fetch-products.png" class="steps__section-image" />
+        <br />
+        <br />
+        <p class="steps__section-description">Example use in component:</p>
+        <img src="assets/example-fetch.png" class="steps__section-image" />
+      </section>
+
+      <!-- 12. Support and Dependencies -->
+      <section class="steps__section" id="support">
+        <h3 class="steps__sub-title">
+          <strong>12. Support and Dependencies</strong>
+        </h3>
+        <p class="steps__section-description">
+          If you have any questions or need support, please contact me via
+          email:
+          <a href="mailto:kul.giorgi@gmail.com">kul.giorgi@gmail.com</a>
+          <br />
+          The project uses the following dependencies:
+        </p>
+        <ul class="api__list">
+          <li class="api__list-item">
+            <a href="https://ducanh-next-pwa.vercel.app/">
+              @ducanh2912/next-pwa
+            </a>
+          </li>
+          <li class="api__list-item">
+            <a href="https://redux-toolkit.js.org/">Redux Toolkit</a>
+          </li>
+          <li class="api__list-item">
+            <a href="https://motion.dev/">Motion</a>
+          </li>
+          <li class="api__list-item">
+            <a href="https://www.npmjs.com/package/react-device-detect">
+              React Device Detect
+            </a>
+          </li>
+          <li class="api__list-item">
+            <a href="https://react-redux.js.org/">React Redux</a>
+          </li>
+          <li class="api__list-item">
+            <a href="https://www.npmjs.com/package/redux-persist">
+              Redux Persist
+            </a>
+          </li>
+          <li class="api__list-item">
+            <a href="https://swiperjs.com/">Swiper</a>
+          </li>
+        </ul>
+        <p class="steps__section-description">
+          The project uses the following font:
+        </p>
+        <ul class="font__list">
+          <li class="font__list-item">
+            <a href="https://fonts.google.com/specimen/Mulish">Mulish</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 13. Changelog -->
+      <section class="steps__section" id="changelog">
+        <h3 class="steps__sub-title">
+          <strong>13. Changelog</strong>
+        </h3>
+        <p class="steps__section-description">
+          <strong>Version 1.0.0 – Initial Release (March 20, 2026)</strong>
+          <br />
+          <br />
+          <span>- 40+ mobile-ready screens included</span>
+          <br />
+          <span>- Fully responsive and optimized UI</span>
+          <br />
+          <span>- Product listing and product details pages</span>
+          <br />
+          <span>- Cart and checkout functionality</span>
+          <br />
+          <span>- Promo code support</span>
+          <br />
+          <span>- Order history and user account management</span>
+          <br />
+          <span>- Authentication (Sign in / Sign up / OTP)</span>
+          <br />
+          <span>- Wishlist feature</span>
+          <br />
+          <span>- Reviews and ratings system</span>
+          <br />
+          <span>- Clean and modern design</span>
+          <br />
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
