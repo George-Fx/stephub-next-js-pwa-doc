@@ -39,6 +39,7 @@ export default defineNuxtConfig({
       crawlLinks: true,
       autoSubfolderIndex: false,
     },
+    preset: "vercel-static",
   },
 
   eslint: {
